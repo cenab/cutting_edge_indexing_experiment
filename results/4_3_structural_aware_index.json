@@ -3,13 +3,14 @@
   "method_name": "Structural-Aware Index",
   "category": "Hierarchical Indexing",
   "description": "Chunking aligned with headings and structural blocks.",
+  "embedding_source": "mock",
   "documents": 20,
-  "chunks": 20,
+  "nodes": 20,
   "metrics": {
-    "precision_at_k": 0.18,
-    "recall_at_k": 0.7,
-    "mrr": 0.7333333333333333,
-    "ndcg_at_k": 0.6646015174679104
+    "precision_at_k": 0.15999999999999998,
+    "recall_at_k": 0.65,
+    "mrr": 0.54,
+    "ndcg_at_k": 0.5264068122572592
   },
   "runtime_config": {},
   "per_query": [
@@ -21,15 +22,15 @@
       ],
       "retrieved_ids": [
         "doc_001",
-        "doc_014",
-        "doc_002",
+        "doc_019",
         "doc_020",
-        "doc_003"
+        "doc_002",
+        "doc_004"
       ],
       "precision_at_k": 0.4,
       "recall_at_k": 1.0,
       "mrr": 1.0,
-      "ndcg_at_k": 0.9197207891481876
+      "ndcg_at_k": 0.8772153153380493
     },
     {
       "query": "What caused the French Revolution?",
@@ -38,10 +39,10 @@
       ],
       "retrieved_ids": [
         "doc_003",
-        "doc_014",
         "doc_001",
-        "doc_006",
-        "doc_005"
+        "doc_018",
+        "doc_017",
+        "doc_016"
       ],
       "precision_at_k": 0.2,
       "recall_at_k": 1.0,
@@ -55,10 +56,10 @@
       ],
       "retrieved_ids": [
         "doc_005",
-        "doc_016",
-        "doc_019",
-        "doc_006",
-        "doc_001"
+        "doc_001",
+        "doc_018",
+        "doc_017",
+        "doc_016"
       ],
       "precision_at_k": 0.2,
       "recall_at_k": 1.0,
@@ -73,10 +74,10 @@
       ],
       "retrieved_ids": [
         "doc_006",
-        "doc_009",
-        "doc_010",
         "doc_001",
-        "doc_018"
+        "doc_018",
+        "doc_017",
+        "doc_016"
       ],
       "precision_at_k": 0.2,
       "recall_at_k": 0.5,
@@ -89,16 +90,16 @@
         "doc_008"
       ],
       "retrieved_ids": [
-        "doc_006",
         "doc_001",
-        "doc_005",
-        "doc_003",
-        "doc_019"
+        "doc_017",
+        "doc_013",
+        "doc_019",
+        "doc_008"
       ],
-      "precision_at_k": 0.0,
-      "recall_at_k": 0.0,
-      "mrr": 0.0,
-      "ndcg_at_k": 0.0
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "mrr": 0.2,
+      "ndcg_at_k": 0.38685280723454163
     },
     {
       "query": "What evidence exists across image and audio about steam engines?",
@@ -107,16 +108,16 @@
         "doc_010"
       ],
       "retrieved_ids": [
-        "doc_010",
         "doc_001",
-        "doc_007",
+        "doc_018",
+        "doc_017",
         "doc_016",
-        "doc_014"
+        "doc_015"
       ],
-      "precision_at_k": 0.2,
-      "recall_at_k": 0.5,
-      "mrr": 1.0,
-      "ndcg_at_k": 0.6131471927654584
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "mrr": 0.0,
+      "ndcg_at_k": 0.0
     },
     {
       "query": "Which scene discusses factory floor conditions?",
@@ -124,16 +125,16 @@
         "doc_011"
       ],
       "retrieved_ids": [
-        "doc_011",
-        "doc_010",
         "doc_001",
-        "doc_009",
-        "doc_018"
+        "doc_018",
+        "doc_017",
+        "doc_016",
+        "doc_015"
       ],
-      "precision_at_k": 0.2,
-      "recall_at_k": 1.0,
-      "mrr": 1.0,
-      "ndcg_at_k": 1.0
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "mrr": 0.0,
+      "ndcg_at_k": 0.0
     },
     {
       "query": "Give steps to archive historical documents.",
@@ -141,11 +142,11 @@
         "doc_012"
       ],
       "retrieved_ids": [
-        "doc_015",
         "doc_017",
-        "doc_008",
+        "doc_001",
+        "doc_018",
         "doc_016",
-        "doc_014"
+        "doc_015"
       ],
       "precision_at_k": 0.0,
       "recall_at_k": 0.0,
@@ -158,16 +159,16 @@
         "doc_015"
       ],
       "retrieved_ids": [
-        "doc_015",
-        "doc_002",
         "doc_001",
-        "doc_009",
-        "doc_018"
+        "doc_018",
+        "doc_017",
+        "doc_016",
+        "doc_015"
       ],
       "precision_at_k": 0.2,
       "recall_at_k": 1.0,
-      "mrr": 1.0,
-      "ndcg_at_k": 1.0
+      "mrr": 0.2,
+      "ndcg_at_k": 0.38685280723454163
     },
     {
       "query": "Find Grade 12 material on medieval trade.",
@@ -175,17 +176,17 @@
         "doc_020"
       ],
       "retrieved_ids": [
+        "doc_020",
         "doc_002",
         "doc_019",
-        "doc_020",
         "doc_001",
         "doc_003"
       ],
       "precision_at_k": 0.2,
       "recall_at_k": 1.0,
-      "mrr": 0.3333333333333333,
-      "ndcg_at_k": 0.5
+      "mrr": 1.0,
+      "ndcg_at_k": 1.0
     }
   ],
-  "generated_at": "2026-02-13T06:04:27.025102+00:00"
+  "generated_at": "2026-02-13T06:29:52.169811+00:00"
 }

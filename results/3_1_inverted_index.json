@@ -3,8 +3,9 @@
   "method_name": "Inverted Index",
   "category": "Sparse and Lexical Indexing",
   "description": "Term-to-postings lexical retrieval.",
+  "embedding_source": "mock",
   "documents": 20,
-  "chunks": 20,
+  "nodes": 20,
   "metrics": {
     "precision_at_k": 0.2,
     "recall_at_k": 0.8,
@@ -187,5 +188,5 @@
       "ndcg_at_k": 1.0
     }
   ],
-  "generated_at": "2026-02-13T06:04:26.998098+00:00"
+  "generated_at": "2026-02-13T06:29:52.099677+00:00"
 }

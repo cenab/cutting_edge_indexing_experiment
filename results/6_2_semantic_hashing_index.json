@@ -3,13 +3,14 @@
   "method_name": "Semantic Hashing Index",
   "category": "Topic and Cluster-Based Indexing",
   "description": "Binary hash retrieval with hamming filtering.",
+  "embedding_source": "mock",
   "documents": 20,
-  "chunks": 20,
+  "nodes": 20,
   "metrics": {
-    "precision_at_k": 0.16,
-    "recall_at_k": 0.65,
-    "mrr": 0.8,
-    "ndcg_at_k": 0.6839441578296375
+    "precision_at_k": 0.04,
+    "recall_at_k": 0.15,
+    "mrr": 0.12,
+    "ndcg_at_k": 0.1
   },
   "runtime_config": {},
   "per_query": [
@@ -20,7 +21,11 @@
         "doc_002"
       ],
       "retrieved_ids": [
-        "doc_001"
+        "doc_001",
+        "doc_018",
+        "doc_017",
+        "doc_016",
+        "doc_015"
       ],
       "precision_at_k": 0.2,
       "recall_at_k": 0.5,
@@ -33,12 +38,16 @@
         "doc_003"
       ],
       "retrieved_ids": [
-        "doc_003"
+        "doc_001",
+        "doc_018",
+        "doc_017",
+        "doc_016",
+        "doc_015"
       ],
-      "precision_at_k": 0.2,
-      "recall_at_k": 1.0,
-      "mrr": 1.0,
-      "ndcg_at_k": 1.0
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "mrr": 0.0,
+      "ndcg_at_k": 0.0
     },
     {
       "query": "Explain why the Civil Rights Movement mattered.",
@@ -46,12 +55,16 @@
         "doc_005"
       ],
       "retrieved_ids": [
-        "doc_005"
+        "doc_001",
+        "doc_018",
+        "doc_017",
+        "doc_016",
+        "doc_015"
       ],
-      "precision_at_k": 0.2,
-      "recall_at_k": 1.0,
-      "mrr": 1.0,
-      "ndcg_at_k": 1.0
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "mrr": 0.0,
+      "ndcg_at_k": 0.0
     },
     {
       "query": "What are the latest renewable energy policy updates?",
@@ -60,12 +73,16 @@
         "doc_013"
       ],
       "retrieved_ids": [
-        "doc_006"
+        "doc_001",
+        "doc_018",
+        "doc_017",
+        "doc_016",
+        "doc_015"
       ],
-      "precision_at_k": 0.2,
-      "recall_at_k": 0.5,
-      "mrr": 1.0,
-      "ndcg_at_k": 0.6131471927654584
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "mrr": 0.0,
+      "ndcg_at_k": 0.0
     },
     {
       "query": "Find a trustworthy source about the recent cybersecurity incident.",
@@ -73,7 +90,11 @@
         "doc_008"
       ],
       "retrieved_ids": [
-        "doc_006"
+        "doc_001",
+        "doc_018",
+        "doc_017",
+        "doc_016",
+        "doc_015"
       ],
       "precision_at_k": 0.0,
       "recall_at_k": 0.0,
@@ -87,12 +108,16 @@
         "doc_010"
       ],
       "retrieved_ids": [
-        "doc_010"
+        "doc_001",
+        "doc_018",
+        "doc_017",
+        "doc_016",
+        "doc_015"
       ],
-      "precision_at_k": 0.2,
-      "recall_at_k": 0.5,
-      "mrr": 1.0,
-      "ndcg_at_k": 0.6131471927654584
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "mrr": 0.0,
+      "ndcg_at_k": 0.0
     },
     {
       "query": "Which scene discusses factory floor conditions?",
@@ -100,13 +125,16 @@
         "doc_011"
       ],
       "retrieved_ids": [
-        "doc_011",
-        "doc_010"
+        "doc_001",
+        "doc_018",
+        "doc_017",
+        "doc_016",
+        "doc_015"
       ],
-      "precision_at_k": 0.2,
-      "recall_at_k": 1.0,
-      "mrr": 1.0,
-      "ndcg_at_k": 1.0
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "mrr": 0.0,
+      "ndcg_at_k": 0.0
     },
     {
       "query": "Give steps to archive historical documents.",
@@ -114,7 +142,11 @@
         "doc_012"
       ],
       "retrieved_ids": [
-        "doc_017"
+        "doc_001",
+        "doc_018",
+        "doc_017",
+        "doc_016",
+        "doc_015"
       ],
       "precision_at_k": 0.0,
       "recall_at_k": 0.0,
@@ -127,13 +159,16 @@
         "doc_015"
       ],
       "retrieved_ids": [
-        "doc_015",
-        "doc_002"
+        "doc_001",
+        "doc_018",
+        "doc_017",
+        "doc_016",
+        "doc_015"
       ],
       "precision_at_k": 0.2,
       "recall_at_k": 1.0,
-      "mrr": 1.0,
-      "ndcg_at_k": 1.0
+      "mrr": 0.2,
+      "ndcg_at_k": 0.38685280723454163
     },
     {
       "query": "Find Grade 12 material on medieval trade.",
@@ -141,13 +176,17 @@
         "doc_020"
       ],
       "retrieved_ids": [
-        "doc_020"
+        "doc_001",
+        "doc_018",
+        "doc_017",
+        "doc_016",
+        "doc_015"
       ],
-      "precision_at_k": 0.2,
-      "recall_at_k": 1.0,
-      "mrr": 1.0,
-      "ndcg_at_k": 1.0
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "mrr": 0.0,
+      "ndcg_at_k": 0.0
     }
   ],
-  "generated_at": "2026-02-13T06:04:27.062735+00:00"
+  "generated_at": "2026-02-13T06:29:52.286726+00:00"
 }

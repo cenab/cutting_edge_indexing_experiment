@@ -1,6 +1,7 @@
 from .framework import (
     METHOD_SPECS,
     METHOD_SPEC_MAP,
+    LlamaIndexMethodRunner,
     IndexingMethodRunner,
     load_corpus,
     load_queries,
@@ -12,6 +13,7 @@ from .framework import (
 __all__ = [
     "METHOD_SPECS",
     "METHOD_SPEC_MAP",
+    "LlamaIndexMethodRunner",
     "IndexingMethodRunner",
     "load_corpus",
     "load_queries",

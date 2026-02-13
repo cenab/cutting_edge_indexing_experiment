@@ -3,13 +3,14 @@
   "method_name": "Weighted Term Index",
   "category": "Sparse and Lexical Indexing",
   "description": "BM25-style weighted term relevance ranking.",
+  "embedding_source": "mock",
   "documents": 20,
-  "chunks": 20,
+  "nodes": 20,
   "metrics": {
-    "precision_at_k": 0.2,
-    "recall_at_k": 0.8,
-    "mrr": 0.9,
-    "ndcg_at_k": 0.8226294385530917
+    "precision_at_k": 0.24000000000000005,
+    "recall_at_k": 0.95,
+    "mrr": 0.95,
+    "ndcg_at_k": 0.9244076946336917
   },
   "runtime_config": {},
   "per_query": [
@@ -38,10 +39,10 @@
       ],
       "retrieved_ids": [
         "doc_003",
-        "doc_001",
         "doc_014",
-        "doc_006",
-        "doc_005"
+        "doc_001",
+        "doc_002",
+        "doc_018"
       ],
       "precision_at_k": 0.2,
       "recall_at_k": 1.0,
@@ -55,10 +56,10 @@
       ],
       "retrieved_ids": [
         "doc_005",
+        "doc_010",
         "doc_016",
         "doc_019",
-        "doc_006",
-        "doc_003"
+        "doc_018"
       ],
       "precision_at_k": 0.2,
       "recall_at_k": 1.0,
@@ -90,10 +91,10 @@
       ],
       "retrieved_ids": [
         "doc_008",
+        "doc_015",
         "doc_006",
-        "doc_017",
-        "doc_005",
-        "doc_016"
+        "doc_007",
+        "doc_001"
       ],
       "precision_at_k": 0.2,
       "recall_at_k": 1.0,
@@ -108,15 +109,15 @@
       ],
       "retrieved_ids": [
         "doc_010",
+        "doc_009",
         "doc_007",
         "doc_001",
-        "doc_016",
-        "doc_019"
+        "doc_016"
       ],
-      "precision_at_k": 0.2,
-      "recall_at_k": 0.5,
+      "precision_at_k": 0.4,
+      "recall_at_k": 1.0,
       "mrr": 1.0,
-      "ndcg_at_k": 0.6131471927654584
+      "ndcg_at_k": 1.0
     },
     {
       "query": "Which scene discusses factory floor conditions?",
@@ -126,9 +127,9 @@
       "retrieved_ids": [
         "doc_011",
         "doc_010",
-        "doc_018",
-        "doc_017",
-        "doc_016"
+        "doc_001",
+        "doc_004",
+        "doc_018"
       ],
       "precision_at_k": 0.2,
       "recall_at_k": 1.0,
@@ -142,15 +143,15 @@
       ],
       "retrieved_ids": [
         "doc_017",
-        "doc_015",
-        "doc_016",
-        "doc_008",
-        "doc_001"
+        "doc_012",
+        "doc_001",
+        "doc_018",
+        "doc_016"
       ],
-      "precision_at_k": 0.0,
-      "recall_at_k": 0.0,
-      "mrr": 0.0,
-      "ndcg_at_k": 0.0
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "mrr": 0.5,
+      "ndcg_at_k": 0.6309297535714575
     },
     {
       "query": "Why did supply chain delays happen?",
@@ -179,7 +180,7 @@
         "doc_019",
         "doc_002",
         "doc_001",
-        "doc_005"
+        "doc_012"
       ],
       "precision_at_k": 0.2,
       "recall_at_k": 1.0,
@@ -187,5 +188,5 @@
       "ndcg_at_k": 1.0
     }
   ],
-  "generated_at": "2026-02-13T06:04:27.006557+00:00"
+  "generated_at": "2026-02-13T06:29:52.128572+00:00"
 }
