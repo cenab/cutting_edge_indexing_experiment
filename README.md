@@ -1,7 +1,3 @@
-Below is a structured 2026-level taxonomy written in the same academic style and hierarchy as your example.
-
-⸻
-
 A. Indexing
 
 Indexing is the process of organizing raw data into structured representations that enable efficient, accurate, and contextually coherent retrieval. In modern retrieval systems, indexing extends beyond simple chunking to incorporate semantic, structural, temporal, and relational representations. Indexing in 2026 faces several systemic challenges: 1) Incomplete semantic coverage due to segmentation artifacts, 2) Retrieval noise amplification under scale, 3) Loss of provenance and reasoning traceability, 4) Distributional drift and adversarial manipulation, and 5) Multi-modal heterogeneity across data sources.
@@ -247,7 +243,3 @@ Associates passages with reasoning chains or evidence annotations.
 12.3 Plan-Oriented Index
 
 Annotates content fragments with procedural or action-oriented metadata.
-
-⸻
-
-This taxonomy reflects the full landscape of indexing methodologies deployed or researched in 2026, spanning chunking strategies, vector structures, graph representations, temporal adaptation, robustness, uncertainty modeling, and reasoning-oriented architectures.
