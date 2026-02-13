@@ -1,0 +1,191 @@
+{
+  "method_id": "7.1_time_decayed_index",
+  "method_name": "Time-Decayed Index",
+  "category": "Temporal and Streaming Indexing",
+  "description": "Recency-aware ranking with temporal decay.",
+  "documents": 20,
+  "chunks": 20,
+  "metrics": {
+    "precision_at_k": 0.2,
+    "recall_at_k": 0.8,
+    "mrr": 0.7,
+    "ndcg_at_k": 0.6955285910760186
+  },
+  "runtime_config": {},
+  "per_query": [
+    {
+      "query": "Compare the treatment of the Industrial Revolution in Grade 10 vs Grade 12.",
+      "relevant_ids": [
+        "doc_001",
+        "doc_002"
+      ],
+      "retrieved_ids": [
+        "doc_014",
+        "doc_001",
+        "doc_002",
+        "doc_006",
+        "doc_020"
+      ],
+      "precision_at_k": 0.4,
+      "recall_at_k": 1.0,
+      "mrr": 0.5,
+      "ndcg_at_k": 0.6934264036172708
+    },
+    {
+      "query": "What caused the French Revolution?",
+      "relevant_ids": [
+        "doc_003"
+      ],
+      "retrieved_ids": [
+        "doc_014",
+        "doc_003",
+        "doc_001",
+        "doc_006",
+        "doc_005"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "mrr": 0.5,
+      "ndcg_at_k": 0.6309297535714575
+    },
+    {
+      "query": "Explain why the Civil Rights Movement mattered.",
+      "relevant_ids": [
+        "doc_005"
+      ],
+      "retrieved_ids": [
+        "doc_005",
+        "doc_016",
+        "doc_006",
+        "doc_019",
+        "doc_001"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "mrr": 1.0,
+      "ndcg_at_k": 1.0
+    },
+    {
+      "query": "What are the latest renewable energy policy updates?",
+      "relevant_ids": [
+        "doc_006",
+        "doc_013"
+      ],
+      "retrieved_ids": [
+        "doc_006",
+        "doc_008",
+        "doc_018",
+        "doc_009",
+        "doc_010"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 0.5,
+      "mrr": 1.0,
+      "ndcg_at_k": 0.6131471927654584
+    },
+    {
+      "query": "Find a trustworthy source about the recent cybersecurity incident.",
+      "relevant_ids": [
+        "doc_008"
+      ],
+      "retrieved_ids": [
+        "doc_006",
+        "doc_008",
+        "doc_005",
+        "doc_001",
+        "doc_003"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "mrr": 0.5,
+      "ndcg_at_k": 0.6309297535714575
+    },
+    {
+      "query": "What evidence exists across image and audio about steam engines?",
+      "relevant_ids": [
+        "doc_009",
+        "doc_010"
+      ],
+      "retrieved_ids": [
+        "doc_007",
+        "doc_010",
+        "doc_001",
+        "doc_014",
+        "doc_016"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 0.5,
+      "mrr": 0.5,
+      "ndcg_at_k": 0.38685280723454163
+    },
+    {
+      "query": "Which scene discusses factory floor conditions?",
+      "relevant_ids": [
+        "doc_011"
+      ],
+      "retrieved_ids": [
+        "doc_011",
+        "doc_010",
+        "doc_001",
+        "doc_020",
+        "doc_018"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "mrr": 1.0,
+      "ndcg_at_k": 1.0
+    },
+    {
+      "query": "Give steps to archive historical documents.",
+      "relevant_ids": [
+        "doc_012"
+      ],
+      "retrieved_ids": [
+        "doc_015",
+        "doc_008",
+        "doc_016",
+        "doc_017",
+        "doc_001"
+      ],
+      "precision_at_k": 0.0,
+      "recall_at_k": 0.0,
+      "mrr": 0.0,
+      "ndcg_at_k": 0.0
+    },
+    {
+      "query": "Why did supply chain delays happen?",
+      "relevant_ids": [
+        "doc_015"
+      ],
+      "retrieved_ids": [
+        "doc_015",
+        "doc_002",
+        "doc_001",
+        "doc_020",
+        "doc_018"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "mrr": 1.0,
+      "ndcg_at_k": 1.0
+    },
+    {
+      "query": "Find Grade 12 material on medieval trade.",
+      "relevant_ids": [
+        "doc_020"
+      ],
+      "retrieved_ids": [
+        "doc_020",
+        "doc_019",
+        "doc_002",
+        "doc_001",
+        "doc_018"
+      ],
+      "precision_at_k": 0.2,
+      "recall_at_k": 1.0,
+      "mrr": 1.0,
+      "ndcg_at_k": 1.0
+    }
+  ],
+  "generated_at": "2026-02-13T06:04:27.067457+00:00"
+}
